@@ -136,7 +136,7 @@
       "venue_url": "https://www.sciencedirect.com/journal/advanced-engineering-informatics",
       "doi": "https://doi.org/10.1016/j.aei.2026.105001",
       "citation": "citations/lmt-net.bib",
-      "figure_note": "Model overview redrawn from the published method."
+      "figure_note": "Model architecture from the published paper (Figure 1)."
     },
     {
       "id": "bpsn",
