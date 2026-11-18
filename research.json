@@ -13,8 +13,8 @@
       "department": "http://www.cse.zju.edu.cn/",
       "undergraduate_university": "https://english.buct.edu.cn/",
       "alibaba": "https://www.alibabagroup.com/en-US/",
-      "quark": "https://www.quark.cn/",
-      "didi": "https://www.didiglobal.com/"
+      "didi": "https://www.didiglobal.com/",
+      "qwen": "https://www.qianwen.com/"
     },
     "orcid": "https://orcid.org/0009-0007-3082-9708"
   },
@@ -24,10 +24,10 @@
       "name": "SCF",
       "repo": "SCF",
       "title": "SCF: Source-Compositional Forecasting for Multimodal Time Series",
-      "venue": "ICDE 2027 · Submission version",
+      "venue": "ICDE 2027 · Under review",
       "year": "2026",
       "category": "Multimodal",
-      "status": "Manuscript",
+      "status": "Under review",
       "summary": "Represent heterogeneous information as Numerical, Prior, Report, and Search forecasts, then compose them with availability-aware, sample–horizon factorized routing.",
       "tags": [
         "Source composition",
@@ -135,7 +135,8 @@
       "hasCode": false,
       "venue_url": "https://www.sciencedirect.com/journal/advanced-engineering-informatics",
       "doi": "https://doi.org/10.1016/j.aei.2026.105001",
-      "citation": "citations/lmt-net.bib"
+      "citation": "citations/lmt-net.bib",
+      "figure_note": "Model overview redrawn from the published method."
     },
     {
       "id": "bpsn",
