@@ -1,0 +1,176 @@
+{
+  "profile": {
+    "name": "Simengxu Qiao",
+    "chinese": "乔斯梦旭",
+    "affiliation": "Zhejiang University",
+    "department": "Control Science and Engineering",
+    "email": "qsmxzju@163.com",
+    "github": "https://github.com/Joss0623",
+    "intro": "I am a doctoral student in Control Science and Engineering at Zhejiang University. My research studies structured temporal representations, multivariate dynamics, and knowledge-guided forecasting, with applications in industrial and biopharmaceutical processes.",
+    "interests": "I am interested in how temporal structure, operating state, and language-based knowledge can inform prediction. My work spans timestamp-aware modeling, conditional expert routing, and selective numerical–text fusion."
+  },
+  "papers": [
+    {
+      "id": "scf",
+      "name": "SCF",
+      "repo": "SCF",
+      "title": "SCF: Source-Compositional Forecasting for Multimodal Time Series",
+      "venue": "ICDE 2027 · Submission version",
+      "year": "2026",
+      "category": "Multimodal",
+      "status": "Manuscript",
+      "summary": "Represent heterogeneous information as Numerical, Prior, Report, and Search forecasts, then compose them with availability-aware, sample–horizon factorized routing.",
+      "tags": [
+        "Source composition",
+        "Expert routing",
+        "Multimodal forecasting"
+      ],
+      "paper": "papers/scf.pdf",
+      "hasCode": true
+    },
+    {
+      "id": "varbridge",
+      "name": "VarBridge",
+      "repo": "VarBridge",
+      "title": "VarBridge: Bridging Process Dynamics and Variable-Specific Mechanistic Semantics for Bioprocess Forecasting",
+      "venue": "Information Fusion · Under review",
+      "year": "2026",
+      "category": "Multimodal",
+      "status": "Under review",
+      "summary": "Bind each process variable to its mechanistic description and combine this semantics with historical state, variable identity, and forecast step through hierarchical expert fusion.",
+      "tags": [
+        "Variable-specific semantics",
+        "Hierarchical fusion",
+        "Bioprocess forecasting"
+      ],
+      "paper": "papers/varbridge.pdf",
+      "hasCode": true
+    },
+    {
+      "id": "gate",
+      "name": "GATE",
+      "repo": "GATE",
+      "title": "GATE: Gated Alignment of Temporal Queries for State-Aware Industrial Multivariate Forecasting",
+      "venue": "IEEE Transactions on Industrial Informatics · Under review",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "Under review",
+      "summary": "Use history- and forecast-oriented temporal queries to retrieve cross-variable context, and regulate its contribution through content relevance and current-state compatibility.",
+      "tags": [
+        "Temporal queries",
+        "State-aware gating",
+        "Multivariate dynamics"
+      ],
+      "paper": "papers/gate.pdf",
+      "hasCode": true
+    },
+    {
+      "id": "event-time",
+      "name": "Event-Time Alignment",
+      "repo": "EventTimeAlignment",
+      "title": "Understanding Time, Aligning Attention: Temporal Reasoning for Web Forecasting",
+      "venue": "The ACM Web Conference (WWW) 2027 · Under review",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "Under review",
+      "summary": "Connect public event dates to individual forecast days through event-relative representations and history-conditioned corrections of frozen numerical forecasts.",
+      "tags": [
+        "Temporal reasoning",
+        "Event-time alignment",
+        "Web attention"
+      ],
+      "paper": "papers/event-time.pdf",
+      "hasCode": true
+    },
+    {
+      "id": "ttw",
+      "name": "TTW",
+      "repo": "TTW",
+      "title": "Explicit Timestamp Modeling for Long-term Time Series Forecasting via Pattern and Residual Fusion",
+      "venue": "Pattern Recognition · 2026",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "Published",
+      "summary": "Explicitly use timestamps to represent recurring temporal patterns, separate them from residual dynamics, and combine their forecasts.",
+      "tags": [
+        "Timestamp modeling",
+        "Pattern–residual fusion",
+        "Long-term forecasting"
+      ],
+      "paper": "papers/ttw.pdf",
+      "hasCode": true
+    },
+    {
+      "id": "lmt-net",
+      "name": "LMT-Net",
+      "repo": "LMT-Net",
+      "title": "LMT-Net: A Hybrid Forecasting Framework with LLM-Guided Mechanistic Router Spatial Attention for Biochemical Industry Process",
+      "venue": "Advanced Engineering Informatics · 2026",
+      "year": "2026",
+      "category": "Multimodal",
+      "status": "Published",
+      "summary": "Use a language model to construct mechanistic relations and guide spatial attention for biochemical process forecasting.",
+      "tags": [
+        "Mechanistic relations",
+        "Router spatial attention",
+        "LLM-guided forecasting"
+      ],
+      "paper": "https://doi.org/10.1016/j.aei.2026.105001",
+      "hasCode": false
+    },
+    {
+      "id": "greyferm",
+      "name": "GreyFerm-LLM",
+      "repo": "GreyFerm-LLM",
+      "title": "GreyFerm-LLM: Physics-Grounded Prompting and Trend–Seasonal Decomposition for Industrial Fermentation Forecasting",
+      "venue": "IEEE BIBM 2026 · Accepted",
+      "year": "2026",
+      "category": "Multimodal",
+      "status": "Accepted",
+      "summary": "Combine process descriptions and trend–seasonal decomposition to investigate language-model-enhanced forecasting of industrial fermentation variables.",
+      "tags": [
+        "Process descriptions",
+        "Trend–seasonal decomposition",
+        "Fermentation"
+      ],
+      "paper": null,
+      "hasCode": false
+    },
+    {
+      "id": "bpsn",
+      "name": "BPSN",
+      "repo": "BioPharmaSoftNet",
+      "title": "A Soft Sensor Net Based on the Symplectic Decomposition–Global Attention Reconstruction Architecture for Biopharmaceutical Industry",
+      "venue": "Applied Soft Computing · 2025",
+      "year": "2025",
+      "category": "Temporal",
+      "status": "Published",
+      "summary": "Combine structured signal decomposition, forecasting, and global-attention reconstruction for soft sensing in biopharmaceutical processes.",
+      "tags": [
+        "Signal decomposition",
+        "Global attention",
+        "Soft sensing"
+      ],
+      "paper": "https://doi.org/10.1016/j.asoc.2025.113636",
+      "hasCode": true
+    },
+    {
+      "id": "chronogeom",
+      "name": "ChronoGeom",
+      "repo": "ChronoGeom",
+      "title": "ChronoGeom: Distilling Task-Conditioned Temporal Priors into Minimal Forecasters",
+      "venue": "Research in progress",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "In progress",
+      "summary": "Study the transfer of task-conditioned temporal priors from language models into compact forecasting receivers, separating temporal assignment from receiver learning.",
+      "tags": [
+        "Temporal priors",
+        "Knowledge transfer",
+        "Lightweight forecasting"
+      ],
+      "paper": "papers/chronogeom.pdf",
+      "hasCode": true
+    }
+  ]
+}
