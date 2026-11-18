@@ -39,6 +39,28 @@
       "venue_url": "https://icde2027.github.io/"
     },
     {
+      "id": "lhc-net",
+      "name": "LHC-Net",
+      "repo": "LHC-Net",
+      "title": "LHC-Net: Bridging LLM Priors and Hypergraph Structure via Channel Retrieval for Biochemical Forecasting",
+      "venue": "ICLR 2027 · Under review",
+      "year": "2027",
+      "category": "Multimodal",
+      "status": "Under review",
+      "summary": "Initialize learnable hypergraph structure with LLM-derived mechanistic priors, refine it from observations, and retrieve relevant channel representations through future temporal queries for biochemical forecasting.",
+      "tags": [
+        "LLM structural priors",
+        "Hypergraph interactions",
+        "Channel retrieval"
+      ],
+      "hasCode": false,
+      "venue_url": "https://iclr.cc/",
+      "figure_note": "Model architecture supplied by the author.",
+      "paper": "https://openreview.net/pdf?id=uPL5X1cZSh",
+      "discussion": "https://openreview.net/forum?id=uPL5X1cZSh",
+      "code_url": "https://anonymous.4open.science/r/LHC-Net-8B41"
+    },
+    {
       "id": "varbridge",
       "name": "VarBridge",
       "repo": "VarBridge",
@@ -164,10 +186,10 @@
       "name": "ChronoGeom",
       "repo": "ChronoGeom",
       "title": "ChronoGeom: Distilling Task-Conditioned Temporal Priors into Minimal Forecasters",
-      "venue": "Research in progress",
+      "venue": "KDD 2027 · Under review",
       "year": "2026",
       "category": "Temporal",
-      "status": "In progress",
+      "status": "Under review",
       "summary": "Study the transfer of task-conditioned temporal priors from language models into compact forecasting receivers, separating temporal assignment from receiver learning.",
       "tags": [
         "Temporal priors",
@@ -175,7 +197,9 @@
         "Lightweight forecasting"
       ],
       "paper": "papers/chronogeom.pdf",
-      "hasCode": true
+      "hasCode": true,
+      "venue_url": "https://kdd2027.kdd.org/",
+      "figure_note": "Redrawn model overview. The numerical base and shared reader remain frozen; only the 48 temporal input coefficients are adapted."
     }
   ]
 }

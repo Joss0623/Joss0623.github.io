@@ -46,6 +46,8 @@ def resource_links(p,project=True):
  if p.get('paper'):links.append(f'<a href="{esc(p["paper"])}">📄 Paper ↗</a>')
  if p.get('doi') and p['doi']!=p.get('paper'):links.append(external_link(p['doi'],'🔗 Publisher / DOI ↗'))
  if p.get('citation'):links.append(f'<a href="{esc(p["citation"])}" download>📋 BibTeX</a>')
+ if p.get('discussion'):links.append(external_link(p['discussion'],'💬 OpenReview ↗'))
+ if p.get('code_url'):links.append(external_link(p['code_url'],'💻 Code ↗'))
  links.append(f'<a href="https://github.com/Joss0623/{p["repo"]}">{"💻 Code" if p["hasCode"] else "📦 Repository"} ↗</a>')
  if p['hasCode']:links.append(star_badge(p))
  return '<div class="links">'+''.join(links)+'</div>'
@@ -63,6 +65,8 @@ for p in data['papers']:
   page+=f'<div class="links"><a href="{esc(paper)}">Read the paper ↗</a><a href="https://github.com/Joss0623/{p["repo"]}">GitHub repository ↗</a></div>'
  else:page+=f'<div class="links"><a href="https://github.com/Joss0623/{p["repo"]}">GitHub repository ↗</a></div>'
  extra=[]
+ if p.get('discussion'):extra.append(external_link(p['discussion'],'💬 OpenReview ↗'))
+ if p.get('code_url'):extra.append(external_link(p['code_url'],'💻 Code ↗'))
  if p.get('doi') and p['doi']!=p.get('paper'):extra.append(external_link(p['doi'],'🔗 Publisher / DOI ↗'))
  if p.get('citation'):extra.append(f'<a href="../../{esc(p["citation"])}" download>📋 Download BibTeX</a>')
  if p['hasCode']:extra.append(star_badge(p))
