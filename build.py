@@ -7,6 +7,8 @@ ROOT=Path(__file__).resolve().parent
 data=json.loads((ROOT/'research.json').read_text())
 STYLE_VERSION=hashlib.sha256((ROOT/'assets/style.css').read_bytes()).hexdigest()[:10]
 esc=lambda x:html.escape(str(x),quote=True)
+# Conference papers first (newest meeting first), then journals by JIF.
+data['papers'].sort(key=lambda p:(p.get('publication_type')=='conference',p.get('conference_date',''),p.get('impact_factor',0)),reverse=True)
 
 def external_link(url, label):
  return f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">{esc(label)}</a>'

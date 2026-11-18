@@ -20,6 +20,29 @@
   },
   "papers": [
     {
+      "id": "chronogeom",
+      "name": "ChronoGeom",
+      "repo": "ChronoGeom",
+      "title": "ChronoGeom: Distilling Task-Conditioned Temporal Priors into Minimal Forecasters",
+      "venue": "KDD 2027 · Under review",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "Under review",
+      "summary": "Study the transfer of task-conditioned temporal priors from language models into compact forecasting receivers, separating temporal assignment from receiver learning.",
+      "tags": [
+        "Temporal priors",
+        "Knowledge transfer",
+        "Lightweight forecasting"
+      ],
+      "paper": "papers/chronogeom.pdf",
+      "hasCode": true,
+      "venue_url": "https://kdd2027.kdd.org/",
+      "figure_note": "Redrawn model overview. The numerical base and shared reader remain frozen; only the 48 temporal input coefficients are adapted.",
+      "publication_type": "conference",
+      "conference_date": "2027-08-01",
+      "conference_date_source": "https://kdd2027.kdd.org/"
+    },
+    {
       "id": "scf",
       "name": "SCF",
       "repo": "SCF",
@@ -36,7 +59,32 @@
       ],
       "paper": "papers/scf.pdf",
       "hasCode": true,
-      "venue_url": "https://icde2027.github.io/"
+      "venue_url": "https://icde2027.github.io/",
+      "publication_type": "conference",
+      "conference_date": "2027-05-17",
+      "conference_date_source": "https://icde2027.github.io/"
+    },
+    {
+      "id": "event-time",
+      "name": "Event-Time Alignment",
+      "repo": "EventTimeAlignment",
+      "title": "Understanding Time, Aligning Attention: Temporal Reasoning for Web Forecasting",
+      "venue": "The ACM Web Conference (WWW) 2027 · Under review",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "Under review",
+      "summary": "Connect public event dates to individual forecast days through event-relative representations and history-conditioned corrections of frozen numerical forecasts.",
+      "tags": [
+        "Temporal reasoning",
+        "Event-time alignment",
+        "Web attention"
+      ],
+      "paper": "papers/event-time.pdf",
+      "hasCode": true,
+      "venue_url": "https://www2027.thewebconf.org/",
+      "publication_type": "conference",
+      "conference_date": "2027-05-09",
+      "conference_date_source": "https://www2027.thewebconf.org/"
     },
     {
       "id": "lhc-net",
@@ -58,7 +106,10 @@
       "figure_note": "Model architecture supplied by the author.",
       "paper": "https://openreview.net/pdf?id=uPL5X1cZSh",
       "discussion": "https://openreview.net/forum?id=uPL5X1cZSh",
-      "code_url": "https://anonymous.4open.science/r/LHC-Net-8B41"
+      "code_url": "https://anonymous.4open.science/r/LHC-Net-8B41",
+      "publication_type": "conference",
+      "conference_date": "2027-04-26",
+      "conference_date_source": "https://iclr.cc/Conferences/2027/Dates"
     },
     {
       "id": "varbridge",
@@ -77,66 +128,11 @@
       ],
       "paper": "papers/varbridge.pdf",
       "hasCode": true,
-      "venue_url": "https://www.sciencedirect.com/journal/information-fusion"
-    },
-    {
-      "id": "gate",
-      "name": "GATE",
-      "repo": "GATE",
-      "title": "GATE: Gated Alignment of Temporal Queries for State-Aware Industrial Multivariate Forecasting",
-      "venue": "IEEE Transactions on Industrial Informatics · Under review",
-      "year": "2026",
-      "category": "Temporal",
-      "status": "Under review",
-      "summary": "Use history- and forecast-oriented temporal queries to retrieve cross-variable context, and regulate its contribution through content relevance and current-state compatibility.",
-      "tags": [
-        "Temporal queries",
-        "State-aware gating",
-        "Multivariate dynamics"
-      ],
-      "paper": "papers/gate.pdf",
-      "hasCode": true,
-      "venue_url": "https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics"
-    },
-    {
-      "id": "event-time",
-      "name": "Event-Time Alignment",
-      "repo": "EventTimeAlignment",
-      "title": "Understanding Time, Aligning Attention: Temporal Reasoning for Web Forecasting",
-      "venue": "The ACM Web Conference (WWW) 2027 · Under review",
-      "year": "2026",
-      "category": "Temporal",
-      "status": "Under review",
-      "summary": "Connect public event dates to individual forecast days through event-relative representations and history-conditioned corrections of frozen numerical forecasts.",
-      "tags": [
-        "Temporal reasoning",
-        "Event-time alignment",
-        "Web attention"
-      ],
-      "paper": "papers/event-time.pdf",
-      "hasCode": true,
-      "venue_url": "https://www2027.thewebconf.org/"
-    },
-    {
-      "id": "ttw",
-      "name": "TTW",
-      "repo": "TTW",
-      "title": "Explicit Timestamp Modeling for Long-term Time Series Forecasting via Pattern and Residual Fusion",
-      "venue": "Pattern Recognition · 2026",
-      "year": "2026",
-      "category": "Temporal",
-      "status": "Published",
-      "summary": "Explicitly use timestamps to represent recurring temporal patterns, separate them from residual dynamics, and combine their forecasts.",
-      "tags": [
-        "Timestamp modeling",
-        "Pattern–residual fusion",
-        "Long-term forecasting"
-      ],
-      "paper": "papers/ttw.pdf",
-      "hasCode": true,
-      "venue_url": "https://www.sciencedirect.com/journal/pattern-recognition",
-      "doi": "https://doi.org/10.1016/j.patcog.2026.114947",
-      "citation": "citations/ttw.bib"
+      "venue_url": "https://www.sciencedirect.com/journal/information-fusion",
+      "publication_type": "journal",
+      "impact_factor": 17.4,
+      "impact_factor_year": 2025,
+      "impact_factor_source": "https://ooir.org/j.php?issn=1566-2535"
     },
     {
       "id": "lmt-net",
@@ -158,7 +154,59 @@
       "venue_url": "https://www.sciencedirect.com/journal/advanced-engineering-informatics",
       "doi": "https://doi.org/10.1016/j.aei.2026.105001",
       "citation": "citations/lmt-net.bib",
-      "figure_note": "Model architecture from the published paper (Figure 1)."
+      "figure_note": "Model architecture from the published paper (Figure 1).",
+      "publication_type": "journal",
+      "impact_factor": 11.5,
+      "impact_factor_year": 2025,
+      "impact_factor_source": "https://ooir.org/j.php?j=1474-0346"
+    },
+    {
+      "id": "gate",
+      "name": "GATE",
+      "repo": "GATE",
+      "title": "GATE: Gated Alignment of Temporal Queries for State-Aware Industrial Multivariate Forecasting",
+      "venue": "IEEE Transactions on Industrial Informatics · Under review",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "Under review",
+      "summary": "Use history- and forecast-oriented temporal queries to retrieve cross-variable context, and regulate its contribution through content relevance and current-state compatibility.",
+      "tags": [
+        "Temporal queries",
+        "State-aware gating",
+        "Multivariate dynamics"
+      ],
+      "paper": "papers/gate.pdf",
+      "hasCode": true,
+      "venue_url": "https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics",
+      "publication_type": "journal",
+      "impact_factor": 9.8,
+      "impact_factor_year": 2025,
+      "impact_factor_source": "https://iten.ieee-ies.org/featured-news/2026/ieee-ies-publications-achieve-strong-2025-journal-impact-factors/"
+    },
+    {
+      "id": "ttw",
+      "name": "TTW",
+      "repo": "TTW",
+      "title": "Explicit Timestamp Modeling for Long-term Time Series Forecasting via Pattern and Residual Fusion",
+      "venue": "Pattern Recognition · 2026",
+      "year": "2026",
+      "category": "Temporal",
+      "status": "Published",
+      "summary": "Explicitly use timestamps to represent recurring temporal patterns, separate them from residual dynamics, and combine their forecasts.",
+      "tags": [
+        "Timestamp modeling",
+        "Pattern–residual fusion",
+        "Long-term forecasting"
+      ],
+      "paper": "papers/ttw.pdf",
+      "hasCode": true,
+      "venue_url": "https://www.sciencedirect.com/journal/pattern-recognition",
+      "doi": "https://doi.org/10.1016/j.patcog.2026.114947",
+      "citation": "citations/ttw.bib",
+      "publication_type": "journal",
+      "impact_factor": 9.1,
+      "impact_factor_year": 2025,
+      "impact_factor_source": "https://ooir.org/j.php?j=0031-3203"
     },
     {
       "id": "bpsn",
@@ -179,27 +227,11 @@
       "hasCode": true,
       "venue_url": "https://www.sciencedirect.com/journal/applied-soft-computing",
       "doi": "https://doi.org/10.1016/j.asoc.2025.113636",
-      "citation": "citations/bpsn.bib"
-    },
-    {
-      "id": "chronogeom",
-      "name": "ChronoGeom",
-      "repo": "ChronoGeom",
-      "title": "ChronoGeom: Distilling Task-Conditioned Temporal Priors into Minimal Forecasters",
-      "venue": "KDD 2027 · Under review",
-      "year": "2026",
-      "category": "Temporal",
-      "status": "Under review",
-      "summary": "Study the transfer of task-conditioned temporal priors from language models into compact forecasting receivers, separating temporal assignment from receiver learning.",
-      "tags": [
-        "Temporal priors",
-        "Knowledge transfer",
-        "Lightweight forecasting"
-      ],
-      "paper": "papers/chronogeom.pdf",
-      "hasCode": true,
-      "venue_url": "https://kdd2027.kdd.org/",
-      "figure_note": "Redrawn model overview. The numerical base and shared reader remain frozen; only the 48 temporal input coefficients are adapted."
+      "citation": "citations/bpsn.bib",
+      "publication_type": "journal",
+      "impact_factor": 7.8,
+      "impact_factor_year": 2025,
+      "impact_factor_source": "https://www.ooir.org/j.php?issn=1568-4946"
     }
   ]
 }
