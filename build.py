@@ -1,10 +1,11 @@
 """Build the static homepage and one page per paper from research.json."""
 from pathlib import Path
-import json, html
+import json, html, hashlib
 from urllib.parse import quote
 
 ROOT=Path(__file__).resolve().parent
 data=json.loads((ROOT/'research.json').read_text())
+STYLE_VERSION=hashlib.sha256((ROOT/'assets/style.css').read_bytes()).hexdigest()[:10]
 esc=lambda x:html.escape(str(x),quote=True)
 
 def external_link(url, label):
@@ -31,7 +32,7 @@ def star_badge(p):
  return f'<a class="repo-badge" href="https://github.com/Joss0623/{p["repo"]}" target="_blank" rel="noopener noreferrer" aria-label="{esc(p["name"])} GitHub repository and stars"><img src="https://img.shields.io/github/stars/Joss0623/{p["repo"]}?style=social&amp;label=Stars" alt="{esc(p["name"])} GitHub stars" loading="lazy" height="20"></a>'
 
 def head(title,depth=''):
- return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="Simengxu Qiao — temporal representation learning, knowledge-guided forecasting, and multimodal time series at Zhejiang University."><meta name="theme-color" content="#176b81"><link rel="icon" href="{depth}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{depth}assets/style.css"></head><body>'''
+ return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="Simengxu Qiao — temporal representation learning, knowledge-guided forecasting, and multimodal time series at Zhejiang University."><meta name="theme-color" content="#176b81"><link rel="icon" href="{depth}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{depth}assets/style.css?v={STYLE_VERSION}"></head><body>'''
 
 def figure_path(p):
  return next((f'assets/{p["id"]}.{ext}' for ext in ('png','svg') if (ROOT/'assets'/f'{p["id"]}.{ext}').exists()),None)
