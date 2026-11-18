@@ -119,24 +119,6 @@
       "hasCode": false
     },
     {
-      "id": "greyferm",
-      "name": "GreyFerm-LLM",
-      "repo": "GreyFerm-LLM",
-      "title": "GreyFerm-LLM: Physics-Grounded Prompting and Trend–Seasonal Decomposition for Industrial Fermentation Forecasting",
-      "venue": "IEEE BIBM 2026 · Accepted",
-      "year": "2026",
-      "category": "Multimodal",
-      "status": "Accepted",
-      "summary": "Combine process descriptions and trend–seasonal decomposition to investigate language-model-enhanced forecasting of industrial fermentation variables.",
-      "tags": [
-        "Process descriptions",
-        "Trend–seasonal decomposition",
-        "Fermentation"
-      ],
-      "paper": null,
-      "hasCode": false
-    },
-    {
       "id": "bpsn",
       "name": "BPSN",
       "repo": "BioPharmaSoftNet",
