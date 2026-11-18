@@ -11,7 +11,7 @@ python3 build.py
 python3 -m http.server 8765
 ```
 
-The generated `index.html` and `projects/*/index.html` are committed for buildless GitHub Pages hosting. Assets are local; there are no analytics, trackers, or external font dependencies. Paper links point to author manuscripts or publisher DOI pages. Do not add a publication status, author-contribution marker, or benchmark result without checking its source.
+The generated `index.html` and `projects/*/index.html` are committed for buildless GitHub Pages hosting. Core page assets are local; GitHub star badges are provided by Shields.io. There are no analytics or external font dependencies. Paper links point to author manuscripts or publisher DOI pages. Do not add a publication status, author-contribution marker, or benchmark result without checking its source.
 
 ## Structure
 
