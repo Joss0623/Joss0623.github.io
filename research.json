@@ -7,7 +7,15 @@
     "email": "qsmxzju@163.com",
     "github": "https://github.com/Joss0623",
     "intro": "I am a doctoral student in Control Science and Engineering at Zhejiang University. My research studies structured temporal representations, multivariate dynamics, and knowledge-guided forecasting, with applications in industrial and biopharmaceutical processes.",
-    "interests": "I am interested in how temporal structure, operating state, and language-based knowledge can inform prediction. My work spans timestamp-aware modeling, conditional expert routing, and selective numerical–text fusion."
+    "interests": "I am interested in how temporal structure, operating state, and language-based knowledge can inform prediction. My work spans timestamp-aware modeling, conditional expert routing, and selective numerical–text fusion.",
+    "links": {
+      "university": "https://www.zju.edu.cn/english/",
+      "department": "http://www.cse.zju.edu.cn/",
+      "undergraduate_university": "https://english.buct.edu.cn/",
+      "alibaba": "https://www.alibabagroup.com/en-US/",
+      "quark": "https://www.quark.cn/",
+      "didi": "https://www.didiglobal.com/"
+    }
   },
   "papers": [
     {
@@ -26,7 +34,8 @@
         "Multimodal forecasting"
       ],
       "paper": "papers/scf.pdf",
-      "hasCode": true
+      "hasCode": true,
+      "venue_url": "https://icde2027.github.io/"
     },
     {
       "id": "varbridge",
@@ -44,7 +53,8 @@
         "Bioprocess forecasting"
       ],
       "paper": "papers/varbridge.pdf",
-      "hasCode": true
+      "hasCode": true,
+      "venue_url": "https://www.sciencedirect.com/journal/information-fusion"
     },
     {
       "id": "gate",
@@ -62,7 +72,8 @@
         "Multivariate dynamics"
       ],
       "paper": "papers/gate.pdf",
-      "hasCode": true
+      "hasCode": true,
+      "venue_url": "https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics"
     },
     {
       "id": "event-time",
@@ -80,7 +91,8 @@
         "Web attention"
       ],
       "paper": "papers/event-time.pdf",
-      "hasCode": true
+      "hasCode": true,
+      "venue_url": "https://www2027.thewebconf.org/"
     },
     {
       "id": "ttw",
@@ -98,7 +110,10 @@
         "Long-term forecasting"
       ],
       "paper": "papers/ttw.pdf",
-      "hasCode": true
+      "hasCode": true,
+      "venue_url": "https://www.sciencedirect.com/journal/pattern-recognition",
+      "doi": "https://doi.org/10.1016/j.patcog.2026.114947",
+      "citation": "citations/ttw.bib"
     },
     {
       "id": "lmt-net",
@@ -116,7 +131,10 @@
         "LLM-guided forecasting"
       ],
       "paper": "https://doi.org/10.1016/j.aei.2026.105001",
-      "hasCode": false
+      "hasCode": false,
+      "venue_url": "https://www.sciencedirect.com/journal/advanced-engineering-informatics",
+      "doi": "https://doi.org/10.1016/j.aei.2026.105001",
+      "citation": "citations/lmt-net.bib"
     },
     {
       "id": "bpsn",
@@ -134,7 +152,10 @@
         "Soft sensing"
       ],
       "paper": "https://doi.org/10.1016/j.asoc.2025.113636",
-      "hasCode": true
+      "hasCode": true,
+      "venue_url": "https://www.sciencedirect.com/journal/applied-soft-computing",
+      "doi": "https://doi.org/10.1016/j.asoc.2025.113636",
+      "citation": "citations/bpsn.bib"
     },
     {
       "id": "chronogeom",

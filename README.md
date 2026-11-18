@@ -19,6 +19,7 @@ The generated `index.html` and `projects/*/index.html` are committed for buildle
 - `build.py`: static page generator.
 - `assets/`: styling, portrait, and method figures.
 - `papers/`: available author manuscripts, published with the owner's authorization.
+- `citations/`: DOI-resolved BibTeX for published papers.
 - `projects/`: one generated landing page per paper.
 
 ## Attribution
