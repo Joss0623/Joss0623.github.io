@@ -3,3 +3,8 @@
 @media(max-width:740px){.wordmark{font-size:13px;white-space:nowrap}.nav nav{gap:10px;font-size:11px}.nav{gap:13px}}
 .links{flex-wrap:wrap;align-items:center;gap:8px 15px}.repo-badge{display:inline-flex;align-items:center;line-height:1}.repo-badge img{height:20px;width:auto;max-width:130px}.meta a{color:inherit}.meta a:hover{color:var(--accent)}
 .pub h3 a,.meta a{color:var(--accent)}
+
+/* Fit publication frames to each model figure instead of a fixed-height canvas. */
+.teaser{height:auto;align-self:start;background:transparent;line-height:0}
+.teaser img{display:block;width:100%;height:auto;padding:0}
+@media(max-width:740px){.teaser{height:auto}}
